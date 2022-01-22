@@ -8,7 +8,7 @@ Template component.
 
 ## index.html
 
-Test Page.
+Test Page. <a href="https://ca-x-ap.github.io/ShadowHostElement/">View</a>
 
 ## RootApp.js
 
