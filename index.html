@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" class="document">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title class="title">Page</title>
+
+    <link rel="icon" href="https://avatars.githubusercontent.com/u/70973663?v=4" type="image/x-icon" />
+	<script type=module src="./RootApp.js"></script>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .document {
+            --color-0: #252525;
+            --color-1: #afafaf;
+            --color-2: #0080ff;
+            --color-3: rgb(48, 48, 49);
+            --color-4: rgb(255, 255, 255);
+            --color-5: rgb(29, 29, 29);
+        }
+
+        :root {
+            accent-color: var(--color-2);
+        }
+
+        .container {
+            margin: 0;
+            min-height: 100vh;
+            background: var(--color-0);
+            scroll-behavior: smooth;
+            font-family: "Roboto", -apple-system, system-ui, sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+    </style>
+</head>
+
+<body class="container">
+	<root-app class="root-app" />
+</body>
+
+</html>
